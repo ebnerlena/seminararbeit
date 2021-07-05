@@ -198,14 +198,18 @@ pages = {71--83},
 title = {{ImAxes: Immersive axes as embodied affordances for interactive multivariate data visualisation}},
 year = {2017}
 }
-@article{Jankowski2014,
-annote = {Interactive 3D environments are not limited to immersive context and exploit general purpose hardware e.g. mouse and keyboard. 3 universal interaction tasks in 3D environments: navigation, selection and manipulation and system control.},
-author = {Jankowski, Jacek and Hachet, Martin and Survey, A and Techniques, Interaction},
-file = {:C\:/Users/leeen/Documents/FH_MMT/4.Semester/seminararbeit/Quellen/SurveyOfInteractionTechniquesForInteractive3DEnvironments.pdf:pdf},
-journal = {Star 2013},
+
+@inproceedings {Jankowski2013,
+booktitle = {Eurographics 2013 - State of the Art Reports},
 title = {{A Survey of Interaction Techniques for Interactive 3D Environments}},
-year = {2014}
+author = {Jankowski, Jacek and Hachet, Martin},
+year = {2013},
+publisher = {The Eurographics Association},
+ISSN = {1017-4656},
+DOI = {10.2312/conf/EG2013/stars/065-093}
 }
+
+
 @article{Yu2016,
 abstract = {We present a family of three interactive Context-Aware Selection Techniques (CAST) for the analysis of large 3D particle datasets. For these datasets, spatial selection is an essential prerequisite to many other analysis tasks. Traditionally, such interactive target selection has been particularly challenging when the data subsets of interest were implicitly defined in the form of complicated structures of thousands of particles. Our new techniques SpaceCast, TraceCast, and PointCast improve usability and speed of spatial selection in point clouds through novel context-aware algorithms. They are able to infer a user's subtle selection intention from gestural input, can deal with complex situations such as partially occluded point clusters or multiple cluster layers, and can all be fine-tuned after the selection interaction has been completed. Together, they provide an effective and efficient tool set for the fast exploratory analysis of large datasets. In addition to presenting Cast, we report on a formal user study that compares our new techniques not only to each other but also to existing state-of-the-art selection methods. Our results show that Cast family members are virtually always faster than existing methods without tradeoffs in accuracy. In addition, qualitative feedback shows that PointCast and TraceCast were strongly favored by our participants for intuitiveness and efficiency.},
 author = {Yu, Lingyun and Efstathiou, Konstantinos and Isenberg, Petra and Isenberg, Tobias},
@@ -410,6 +414,7 @@ title = {{Evaluating an Immersive Space-Time Cube Geovisualization for Intuitive
 volume = {26},
 year = {2020}
 }
+
 @article{Butcher2020,
 abstract = {We present VRIA, a Web-based framework for creating Immersive Analytics (IA) experiences in Virtual Reality. VRIA is built upon WebVR, A-Frame, React and D3.js, and offers a visualization creation workflow which enables users, of different levels of expertise, to rapidly develop Immersive Analytics experiences for the Web. The use of these open-standards Web-based technologies allows us to implement VR experiences in a browser and offers strong synergies with popular visualization libraries, through the HTML Document Object Model (DOM). This makes VRIA ubiquitous and platform-independent. Moreover, by using WebVR's progressive enhancement, the experiences VRIA creates are accessible on a plethora of devices. We elaborate on our motivation for focusing on open-standards Web technologies, present the VRIA creation workflow and detail the underlying mechanics of our framework. We also report on techniques and optimizations necessary for implementing Immersive Analytics experiences on the Web, discuss scalability implications of our framework, and present a series of use case applications to demonstrate the various features of VRIA. Finally, we discuss current limitations of our framework, the lessons learned from its development, and outline further extensions.},
 author = {Butcher, Peter W. S. and John, Nigel W. and Ritsos, Panagiotis D.},
@@ -424,29 +429,33 @@ title = {{VRIA: A Web-Based Framework for Creating Immersive Analytics Experienc
 volume = {27},
 year = {2020}
 }
-@article{Buschel2021,
-abstract = {In this paper, we present MIRIA, a Mixed Reality Interaction Analysis toolkit designed to support the in-situ visual analysis of user interaction in mixed reality and multi-display environments. So far, there are few options to efectively explore and analyze interaction patterns in such novel computing systems. With MIRIA, we address this gap by supporting the analysis of user movement, spatial interaction, and event data by multiple, co-located users directly in the original environment. Based on our own experiences and an analysis of the typical data, tasks, and visualizations used in existing approaches, we identify requirements for our system. We report on the design and prototypical implementation of MIRIA, which is informed by these requirements and ofers various visualizations such as 3D movement trajectories, position heatmaps, and scatterplots. To demonstrate the value of MIRIA for real-world analysis tasks, we conducted expert feedback sessions using several use cases with authentic study data.},
-author = {B{\"{u}}schel, Wolfgang and Lehmann, Anke and Dachselt, Raimund},
-doi = {10.1145/3411764.3445651},
-file = {:C\:/Users/leeen/Documents/FH_MMT/4.Semester/seminararbeit/Quellen/not yet reviewed_IEEE/HCI2021/B{\"{u}}schel2021_MIRA_AMixedRealtiyToolkotFOrTheInSituVisualiationAndAnalysisOfSpatioTemporalInteractionData.pdf:pdf},
-isbn = {9781450380966},
-keywords = {augmented reality,human-computer interaction,immersive analytics,in-situ,in-situ analysis,interaction analysis,vi-,visualization},
-pages = {1--15},
-title = {{MIRIA: A Mixed Reality Toolkit for the In-Situ Visualization and Analysis of Spatio-Temporal Interaction Data}},
-year = {2021}
+@inproceedings{Buschel2021,
+   author = {Wolfgang B\"{u}schel and Anke Lehmann and Raimund Dachselt},
+   title = {MIRIA: A Mixed Reality Toolkit for the In-Situ Visualization and Analysis of Spatio-Temporal Interaction Data},
+   booktitle = {Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems},
+   series = {CHI '21},
+   year = {2021},
+   month = {5},
+   isbn = {978-1-4503-8096-6/21/05},
+   location = {Yokohama, Japan},
+   numpages = {15},
+   doi = {10.1145/3411764.3445651},
+   publisher = {ACM},
+   address = {New York, NY, USA},
+   keywords = {interaction analysis, immersive analytics, in-situ analysis, in-situ visualization, augmented reality, human-computer interaction, visualization}
 }
-@book{Langner2021,
-abstract = {We present Marvis, a conceptual framework that combines mobile devices and head-mounted Augmented Reality (AR) for visual data analysis. We propose novel concepts and techniques addressing visualization-specifc challenges. By showing additional 2D and 3D information around and above displays, we extend their limited screen space. AR views between displays as well as linking and brushing are also supported, making relationships between separated visualizations plausible. We introduce the design process and rationale for our techniques. To validate Marvis' concepts and show their versatility and widespread applicability, we describe six implemented example use cases. Finally, we discuss insights from expert hands-on reviews. As a result, we contribute to a better understanding of how the combination of one or more mobile devices with AR can beneft visual data analysis. By exploring this new type of visualization environment, we hope to provide a foundation and inspiration for future mobile data visualizations.},
-author = {Langner, Ricardo and Satkowski, Marc and B{\"{u}}schel, Wolfgang and Dachselt, Raimund},
-booktitle = {CHI Conference on Human Factors in Computing Systems (CHI '21), May 8{\^{a}}•ﬁ13, 2021, Yokohama, Japan},
-doi = {10.1145/3411764.3445593},
-file = {:C\:/Users/leeen/Documents/FH_MMT/4.Semester/seminararbeit/Quellen/not yet reviewed_IEEE/HCI2021/Langner2021_MARVIS_CombiningMobileDevicesAndARForVisualDataAnalysis.pdf:pdf},
-isbn = {9781450380966},
-keywords = {augmented displays,cross-device interaction,data analysis,data visualization,head-mounted augmented reality,immersive analytics,mobile data visualization,mobile devices},
-number = {1},
-pages = {1--17},
-publisher = {Association for Computing Machinery},
-title = {{MARVIS: Combining Mobile Devices and Augmented Reality for Visual Data Analysis}},
-volume = {1},
-year = {2021}
+
+@inproceedings{Langner2021,
+   author = {Ricardo Langner and Marc Satkowski and Wolfgang B\"{u}schel and Raimund Dachselt},
+   title = {MARVIS: Combining Mobile Devices and Augmented Reality for Visual Data Analysis},
+   booktitle = {Proceedings of the 2021 ACM Conference on Human Factors in Computing Systems},
+   year = {2021},
+   month = {5},
+   isbn = {978-1-4503-8096-6/21/05},
+   location = {Yokohama, Japan},
+   numpages = {17},
+   doi = {10.1145/3411764.3445593},
+   publisher = {ACM},
+   address = {New York, NY, USA},
+   keywords = {data visualization, mobile devices, head-mounted augmented reality, cross-device interaction, data analysis, mobile data visualization, augmented displays, immersive analytics}
 }
